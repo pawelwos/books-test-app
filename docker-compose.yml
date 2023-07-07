@@ -12,6 +12,7 @@ services:
       - MARIADB_USER=bn_myapp
       - MARIADB_DATABASE=bitnami_myapp
   myapp:
+    build: .
     image: docker.io/bitnami/laravel:10
     user: "1000:1000"
     ports:

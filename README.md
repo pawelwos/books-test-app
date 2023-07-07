@@ -12,13 +12,24 @@ To install the app:
 6. docker-compose exec myapp php artisan migrate --seed
 
 API endpoints:
+
 list
+
 GET http://139.162.163.187/api/books
+
 view
+
 GET http://139.162.163.187/api/books/{book}
+
 create
+
 POST http://139.162.163.187/api/books/{book}
+
 updated
+
 PUT http://139.162.163.187/api/books/{book}
+
 delete
+
 DELETE http://139.162.163.187/api/books/{book}
+
